@@ -1,0 +1,23 @@
+.orange {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5.6em;
+    height: 5.6em;
+    background-color: #ffb526;
+    border-radius: 50%;
+    box-shadow: inset .2em -.2em #cc8a0c;
+}
+
+.orange::before {
+    content: "";
+    position: absolute;
+    top: -1em;
+    left: 3em;
+    height: 0;
+    width: 0;
+    border: 1em solid #539e3d;
+    border-radius: 50% 0% 50% 0%;
+
+} 
+
